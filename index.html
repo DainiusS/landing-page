@@ -10,24 +10,25 @@
 <body>
     <div class="part-one">
         <div class="header">
-            <img class="logo-picture" src="images/logo.jpg" alt="Logo">
+            <!--The is no image in logo where it should be on purpose - to check if alt works-->
+            <img class="logo-picture" src="images/logo.jpg" alt="Header Logo">
             <ul>
-                <li><a href="http://www.google.com">header link one</a></li>
-                <li><a href="http://www.google.com">header link two</a></li>
-                <li><a href="http://www.google.com">header link three</a></li>
+                <li><a href="http://www.google.com" target="_blank">header link one</a></li>
+                <li><a href="http://www.google.com" target="_blank">header link two</a></li>
+                <li><a href="http://www.google.com" target="_blank">header link three</a></li>
             </ul>
         </div>
         <div class="information">
             <div class="left-side">
                 <h1>This website is awesome!</h1>
                 <p>This website has some  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button class="button-one">Sign up</button>
+                <button class="button-one" onclick="window.location.href='http://www.google.com'">Sign up</button>
             </div>
             <img class="big-picture" src="./images/big-picture.jpg" alt="Big picture"> 
         </div>
     </div>
     <div class="part-two">
-        <h2>Some random information</h2>
+        <h2>Some random information.</h2>
         <div class="main-part">
             <div class="info">
                 <img class="first" src="images/first.jpg" alt="First picture">
@@ -52,18 +53,19 @@
     <!--Just checking if I remember how comments are used-->
 
     <div class="part-three">
-        <div class="thor-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. -Thor, God of Thunder
-        </div>
+        <p class="thor-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.<br><span style="text-align: right; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-style:normal; float: right;">-Thor, God of Thunder</span>
+        </p>
     </div>
-    <!--Need to fix this part-->
+   
     <div class="part-four">
         <div class="container">
             <div class="container-left">
-                <div class="call-to-action"> Call to action. It's time! Something about something</div>
+                <h3>Call to action. It's time!</h3>
+                <h6>Sign up for our product by clicking that button right over there!</h6>
             </div>
             <div class="container-right">
-                <button class="button-two">Sign up</button>
+                <button class="button-two" onclick="window.location.href='http://www.google.com'">Sign up</button>
             </div>
         </div>
     </div>
